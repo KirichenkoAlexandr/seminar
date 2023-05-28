@@ -20,19 +20,22 @@ int SecondDigit(int num)
 }
 
 int FourDigit(int num)
+
 {
     int number = num / 10 % 10;
     return number;
 }
+
 int FiveDigit(int num)
 {
     int number = num % 10;
     return number;
 }
+
 Console.WriteLine("Введите пятизначное число");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number > 10000 || number < -10000)
+if (number > 10000 && number<100000 || number < -10000 && number<-100000)
 {
 
 
