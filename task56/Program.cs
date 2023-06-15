@@ -86,7 +86,7 @@ Console.WriteLine();
 
 int[] sum = SumRowsMatrix(array2d);
 PrintArray(sum);
-// Console.WriteLine();
+
 
 int minIndexElementArray=MinIndexElementArray(sum);
 Console.WriteLine($"Номер строки с наименьшей суммой элементов: {minIndexElementArray}");
