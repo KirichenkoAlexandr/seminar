@@ -7,7 +7,7 @@
 
 Console.WriteLine("Введите натуральное число");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number <= 0) Console.WriteLine("Число не натуральное");
+if (number <0) Console.WriteLine("Число не натуральное");
 NaturalNumbers(number);
 
 
